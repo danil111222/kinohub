@@ -1,0 +1,181 @@
+.header a, a:hover {
+	color: #f0ad4e;
+	text-decoration: none;
+}
+
+.header_2{
+	color: white;
+}
+.header h1 {
+	letter-spacing: 15px; /* межбуквенный интервал */
+	font-size: 300%;
+}
+
+.header p {
+	color: white !important; /* Данное css-свойство указывает браузеру, 
+	что это самый приоритетный стиль и нужно игнорировать объявленные ранее стиль у данного элемента */
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover { /*изменить подстветку кнопки на сайте и цвет кнопки*/
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a { /*изменить подстветку кнопки на сайте и цвет кнопки*/
+	color: #fff;
+}
+
+.nav-pills>li>a:hover { /*изменить подстветку кнопки на сайте и цвет кнопки*/
+	background-color: #346270;
+}
+
+.navbar-inverse { /*изменить отступ кнопки на сайте и цвет кнопки*/
+    padding: 1%;
+}
+
+@media (max-width: 767px){
+
+	.nav-pills>li{   /* в класе nav-pills обращаемся к li с помощью > */
+		float: none;
+		padding-bottom: 1%;
+	}
+
+	.nav-pills{
+		text-align: center; /* весь текст в этом классе будет по центру */
+	}
+
+	.header h1{
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+
+	.header{
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px){ /* убрать загругленные концы на хедер (верхняя часть сайта) */
+	.navbar {
+    border-radius: 0px;
+	}
+}
+
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%; /* прижимаем наш футер к низу */
+}
+
+html,body {
+	height: 100%;
+}
+
+.films_block {
+	text-align: center;
+}
+
+.films_block img {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 8%;
+}
+
+
+.panel {
+	border: none;
+}
+
+.panel-body {
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+	background-color: #f0ad4e;
+	color: white;
+	border-color: transparent;
+}
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+
+.form-control {
+	font-size: 14px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg{
+	font-size: 14px;
+}
+
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+
+.badge {
+	background-color: black;
+}
+
+.info_block {
+	font-size: 120%;
+}
+
+.info_block .badge {
+	font-size: 80%;
+}
+
+.info_block span {
+	margin-right: 3%;
+}
+
+
+.contact {
+	font-size: 130%;
+}
+
+
+.table tbody>tr>td.vert-align { /* выравнивает элементы таблицы по центру */
+	vertical-align: middle;
+}
+
+textarea.form-control {
+	height: 200px;
+}
+
+footer { /* стили для футера */
+	color: #666;
+	background-color: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a { /* цвет ссылки */
+	color: #999;
+}
+
+footer a:hover { /* цвет ссылки при наведении мышки на нее */
+	color: #efefef;
+}

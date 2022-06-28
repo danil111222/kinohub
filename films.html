@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--тэг для Internet Explorer старых версий,что бы корректно отображать страницу -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>КиноHUB film</title>
+
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS Styles-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+    
+	<div class="container-fluid"><!-- container-fluid растягивает наш контейнер на весь єкран-->
+		<div class="row"><!--row убирает отступы-->
+		    
+			<nav role="navigation" class="navbar navbar-inverse">
+				<div class="container">
+				    
+					<div class="navbar-header header">
+
+						<div class="container">
+							
+							<div class="row">
+								
+								<div class="col-lg-12">
+									
+									<h1><a href="index.html"><span class="header_2">Кино</span>HUB</a></h1>
+                                    <p>Три удовольствия в одном месте</p>
+
+								</div>
+							</div>
+						</div>
+
+          
+						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+      						<span class="sr-only">Toggle navigation</span><!-- это для иконки меню на самом сайте-->
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+						</button><!--При нажатии на кнопку обратится к диву с id="navbarCollapse"-->
+          
+					</div>
+					
+					<div id="navbarCollapse" class="collapse navbar-collapse navbar-right"><!--navbar-right означает прижать нашу навигацию к правому краю-->
+						<ul class="nav nav-pills"><!--nav pills нужно для работы с меню сайта-->
+							<li><a href="index.html">Главная</a></li>
+							<li class="active"> <a href="films.html">Фильмы</a> </li>
+							<li> <a href="#">Сериалы</a> </li>
+							<li> <a href="rating.html">Рейтинг фильмов</a> </li>
+							<li> <a href="contact.html">Контакты</a> </li>
+						</ul>
+					</div>
+					
+				</div>
+			</nav>
+			
+		</div>
+	</div>
+
+	<div class="wrapper"><!-- в этом диве находится весь контент сайта, кроме футера (нижней части сайта)-->
+		
+		<div class="container">
+			
+			<div class="row">
+				
+			<div class="col-lg-9 col-lg-push-3"> <!--правый блок сайта, поменяли блоки местами правый и левы с помощью push and pull-->
+
+				<form role="search" class="visible-xs"> <!-- form нужен для создания блока поиска,где вписывается текст поиска-->
+							<div class="form-group"> <!--form group нужен для того что бы создавать оптимальное расстояние между элементами формы-->
+								<div class="input-group"> <!-- с помощью input group можно объеденить инпуты с другими элементами сайта-->
+								     <input type="search" class="form-control input-lg" placeholder="Ваш запрос"><!-- from-control этот класс придает внещний вид элементу-->
+								     <div class="input-group-btn"> <!-- класс для создания кнопки поиска в блоке поиска-->
+									    <button class="btn btn-default btn-lg" type="submit">
+									    	<i class="glyphicon glyphicon-search"></i></button><!-- тег i компонент бустрап для добавления иконок, так мы добавили для кнопки иконку поиска-->
+								     </div> 
+								</div>
+							</div>
+				</form>
+
+				<h1>Фильмы</h1>
+				<hr>
+
+				<div class="row"> <!--блок фильма интерстеллар-->
+					<div class="well clearfix"> <!-- класс бустрапclearfix убирает оптекание-->
+						<div class="col-lg-3 col-md-2 text-center">
+							<img class="img-thumbnail" src="assets/img/inter.png" alt="интерстеллар"> <!-- класс бутстрап img-thumbnail добавляет рамку к картинке-->
+							<p>Интерстеллар</p>
+						</div>
+
+						<div class="col-lg-9 col-md-10">
+							<p>
+								«Интерстéллар» — научно-фантастический фильм, снятый Кристофером Ноланом по сценарию, написанному в соавторстве с Джонатаном Ноланом. Фильм повествует о путешествиях группы исследователей, которые используют недавно обнаруженный пространственно-временной тоннель, чтобы обойти ограничения полёта человека в космосе и покорить огромные расстояния на межзвёздном корабле. Сценаристом проекта выступил брат Кристофера — Джонатан Нолан, который работал над сценариями к двум фильмам трилогии «Бэтмен», а также картинам «Помни» и «Престиж». Сценарий основан на научных работах Кипа Торна. Премьера фильма состоялась 26 октября 2014 года в Лос-Анджелесе.
+							</p>
+						</div>
+
+						<div class="col-lg-12">
+							<a href="show.html" class="btn btn-lg btn-warning pull-right">подробнее</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="margin-8"></div> <!-- класс нужен для разделения блоков-->
+
+				<div class="row"> <!--блок фильма интерстеллар-->
+					<div class="well clearfix"> <!-- класс бустрапclearfix убирает оптекание-->
+						<div class="col-lg-3 col-md-2 text-center">
+							<img class="img-thumbnail" src="assets/img/matrix.png" alt="матрица"> <!-- класс бутстрап img-thumbnail добавляет рамку к картинке-->
+							<p>Матрица</p>
+						</div>
+
+						<div class="col-lg-9 col-md-10">
+							<p>
+								Фильм изображает будущее, в котором реальность, существующая для большинства людей, есть в действительности симуляция типа «мозг в колбе», созданная разумными машинами, чтобы подчинить и усмирить человеческое население, в то время как тепло и электрическая активность их тел используются машинами в качестве источника энергии. Узнав об этом, хакер по кличке Нео оказывается втянут в повстанческую борьбу против машин, в которую также вовлечены другие люди, освободившиеся из «мира снов» и выбравшиеся в реальность. Мир Матрицы — это иллюзия, существующая только в бесконечном сне обреченного человечества. Холодный мир будущего, в котором люди — всего лишь батарейки в компьютерных системах.
+							</p>
+						</div>
+
+						<div class="col-lg-12">
+							<a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="margin-8"></div> <!-- класс нужен для разделения блоков-->
+
+				<div class="row"> <!--блок фильма интерстеллар-->
+					<div class="well clearfix"> <!-- класс бустрапclearfix убирает оптекание-->
+						<div class="col-lg-3 col-md-2 text-center">
+							<img class="img-thumbnail" src="assets/img/max.png" alt="Безумный Макс"> <!-- класс бутстрап img-thumbnail добавляет рамку к картинке-->
+							<p>Безумный Макс</p>
+						</div>
+
+						<div class="col-lg-9 col-md-10">
+							<p>
+								«Безу́мный Макс: Доро́га я́рости» — постапокалиптический боевик австралийского режиссёра Джорджа Миллера, четвёртый фильм в серии фильмов о Максе Рокатански. Главную роль исполнил британский актёр Том Харди; в других ключевых ролях снялись Шарлиз Терон, Николас Холт и Хью Кияс-Бёрн. «Дорога ярости» является перезапуском серии спустя почти 30 лет после выхода последней части. Фильм на протяжении многих лет находился в «производственном аду» — работа над «Дорогой ярости» началась ещё в 1997 году. Действие происходит в постапокалиптическом будущем после падения цивилизации. В течение фильма герои на грузовике пытаются пересечь пустыню и добраться до легендарных «Зелёных Земель» на востоке; их преследует тиран Несмертный Джо, считающий женщин-пассажирок грузовика своей похищенной собственностью.
+							</p>
+						</div>
+
+						<div class="col-lg-12">
+							<a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="margin-8"></div> <!-- класс нужен для разделения блоков-->
+
+				<div class="row"> <!--блок фильма интерстеллар-->
+					<div class="well clearfix"> <!-- класс бустрапclearfix убирает оптекание-->
+						<div class="col-lg-3 col-md-2 text-center">
+							<img class="img-thumbnail" src="assets/img/cloud.png" alt="облачный атлас"> <!-- класс бутстрап img-thumbnail добавляет рамку к картинке-->
+							<p>Облачный атлас</p>
+						</div>
+
+						<div class="col-lg-9 col-md-10">
+							<p>
+								О́блачный а́тлас» — историко-фантастический фильм 2012 года, созданный Томом Тыквером, Ланы и Эндрю Вачовски. Режиссёры написали сценарий на основе одноимённого романа Дэвида Митчелла, изданного в 2004 году. Фильм состоит из шести независимых, но идейно и символически связанных историй о шести людях из прошлого, настоящего и будущего; одни и те же актёры играют нескольких героев в разных сюжетных линиях. Бюджет фильма составил 102 миллиона долларов. Несмотря на то, что часть этой суммы была получена от Warner Bros., основной фонд сформирован из независимых источников. Таким образом, «Облачный атлас» представляет собой самый дорогой независимый фильм на момент производства.Фильм получил неоднозначные, но в среднем сдержанно-одобрительные отзывы критиков, заслужил несколько премий и номинаций.
+							</p>
+						</div>
+
+						<div class="col-lg-12">
+							<a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="margin-8"></div> <!-- класс нужен для разделения блоков-->
+
+				</div>
+
+			<div class="col-lg-3 col-lg-pull-9"><!--левый блок сайта-->
+
+                    <!--------------------------Блок поиск------------------------->
+				<div class="panel panel-info hidden-xs"><!-- panel класс bootstrap для создания блоков поиска, рейтинга фильмов и тд.-->	
+					<div class="panel-heading"><div class="sidebar-header">Поиск</div></div>
+					<div class="panel-body"><!-- в этом диве находится контент панели-->
+						<form role="search"> <!-- form нужен для создания блока поиска,где вписывается текст поиска-->
+							<div class="form-group"> <!--form group нужен для того что бы создавать оптимальное расстояние между элементами формы-->
+								<div class="input-group"> <!-- с помощью input group можно объеденить инпуты с другими элементами сайта-->
+									<!--<span class="input-group-addon">@</span> дополнительное поле перед поиском-->
+								     <input type="search" class="form-control input-lg" placeholder="Ваш запрос"><!-- from-control этот класс придает внещний вид элементу-->
+								     <div class="input-group-btn"> <!-- класс для создания кнопки поиска в блоке поиска-->
+									    <button class="btn btn-default btn-lg" type="submit">
+									    	<i class="glyphicon glyphicon-search"></i></button><!-- тег i компонент бустрап для добавления иконок, так мы добавили для кнопки иконку поиска-->
+								     </div> 
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+                    <!--------------------------Блок Вход------------------------->
+				<div class="panel panel-info"><!-- panel класс bootstrap для создания блоков поиска, рейтинга фильмов и тд.-->	
+					<div class="panel-heading"><div class="sidebar-header">Вход</div></div>
+					<div class="panel-body"><!-- в этом диве находится контент панели-->
+						<form role="form">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" placeholder="Логин">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" placeholder="Пароль">
+							</div>
+							<button type="submit" class="btn btn-warning pull-right">Вход</button>
+						</form>
+               		</div>	
+               </div>
+
+               <!--------------------------Блок Новости------------------------->
+				<div class="panel panel-info"><!-- panel класс bootstrap для создания блоков поиска, рейтинга фильмов и тд.-->	
+					<div class="panel-heading"><div class="sidebar-header">Новости</div></div>
+					<div class="panel-body"><!-- в этом диве находится контент панели-->
+						15.11.2021
+						<p>Мы запустили новый сервис</p>
+               		</div>	
+               </div>
+
+ 					<!--------------------------Блок Рейтинг фильмов------------------------->
+ 				<div class="panel panel-info"><!-- panel класс bootstrap для создания блоков поиска, рейтинга фильмов и тд.-->	
+					<div class="panel-heading"><div class="sidebar-header">Рейтинг фильмов</div></div>
+					<div class="panel-body"><!-- в этом диве находится контент панели-->
+
+						<ul class="list-group"> <!-- класс бустрап для создания списка-->
+							<li class="list-group-item list-group-warning"><!-- класс бустрап с элементами списка, list-group-warning стиль для єлементов списка (см. документацию)-->
+								<span class="badge">8.9</span> <!--badge класс бустрап, создает блок с именем фильма и рейтингом (в этом случае) также можно добавить ссылку-->
+								<a href="show.html">Интерстеллар</a>
+							</li> 
+
+							<li class="list-group-item list-group-warning">
+								<span class="badge">8.7</span> 
+								<a href="">Безумный Макс</a>
+							</li> 
+
+							<li class="list-group-item list-group-warning">
+								<span class="badge">8.3</span> 
+								<a href="">Матрица</a>
+							</li>
+
+							<li class="list-group-item list-group-warning">
+								<span class="badge">8.1</span> 
+								<a href="">Облачный атлас</a>
+							</li>  	
+
+						</ul>
+
+               		</div>	
+               </div>	
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+		<div class="clear">	</div> <!-- клас для расделения правого и левого блока сайта-->
+
+	</div> 
+
+	<footer> <!-- тег для футера (нижней части сайта)-->
+		
+		<div class="container">
+			<p class="text-center"><a href="http://google.com">GOOGLE.COM</a></p>
+		</div>
+
+	</footer>
+    
+    <!-- Подключаем jQuery и Bootstrap JS через CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
